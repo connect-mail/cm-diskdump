@@ -14,10 +14,10 @@ chai.should();
 
 var diskdump = require('../lib/cm-diskdump.js');
 
-describe('cm-diskdump module', function(){
-  describe('#awesome()', function(){
-    it('should return a hello', function(){
-      diskdump.awesome('livia').should.equal('hello livia');
+describe('cm-diskdump', function(){
+  describe('module', function(){
+    it('should be a function', function(){
+      diskdump.should.be.a('function');
     });
   });
 });
